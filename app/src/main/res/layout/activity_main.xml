@@ -21,4 +21,18 @@
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/bio_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/bio"
+            style="@style/name_style"/>
+    </ScrollView>
+
 </LinearLayout>
